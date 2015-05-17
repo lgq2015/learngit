@@ -19,8 +19,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    InterfaceController *interface = [[InterfaceController alloc]init];
-    
 }
 
 - (void)didReceiveMemoryWarning {
