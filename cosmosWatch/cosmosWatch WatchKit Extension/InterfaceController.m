@@ -10,6 +10,7 @@
 
 
 @interface InterfaceController()
+@property (strong, nonatomic) IBOutlet WKInterfaceLabel *microcosm;
 
 @end
 
@@ -19,12 +20,16 @@
 - (void)awakeWithContext:(id)context {
     [super awakeWithContext:context];
 
+    [_microcosm setText:@"microcosm" ];
+    [_microcosm setTextColor:[UIColor blueColor]];
     // Configure interface objects here.
 }
 
 - (void)willActivate {
     // This method is called when watch view controller is about to be visible to user
     [super willActivate];
+    
+    
 }
 
 - (void)didDeactivate {
