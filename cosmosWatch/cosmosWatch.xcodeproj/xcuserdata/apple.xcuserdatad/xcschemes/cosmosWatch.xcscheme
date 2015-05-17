@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "188FB4EE1B0770E000DBFB31"
-               BuildableName = "ASmallUniverseWatchApp.app"
-               BlueprintName = "ASmallUniverseWatchApp"
-               ReferencedContainer = "container:ASmallUniverseWatchApp.xcodeproj">
+               BlueprintIdentifier = "1829FDE81B089255005EC5E6"
+               BuildableName = "cosmosWatch.app"
+               BlueprintName = "cosmosWatch"
+               ReferencedContainer = "container:cosmosWatch.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "188FB5071B0770E000DBFB31"
-               BuildableName = "ASmallUniverseWatchAppTests.xctest"
-               BlueprintName = "ASmallUniverseWatchAppTests"
-               ReferencedContainer = "container:ASmallUniverseWatchApp.xcodeproj">
+               BlueprintIdentifier = "1829FE011B089255005EC5E6"
+               BuildableName = "cosmosWatchTests.xctest"
+               BlueprintName = "cosmosWatchTests"
+               ReferencedContainer = "container:cosmosWatch.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "188FB5071B0770E000DBFB31"
-               BuildableName = "ASmallUniverseWatchAppTests.xctest"
-               BlueprintName = "ASmallUniverseWatchAppTests"
-               ReferencedContainer = "container:ASmallUniverseWatchApp.xcodeproj">
+               BlueprintIdentifier = "1829FE011B089255005EC5E6"
+               BuildableName = "cosmosWatchTests.xctest"
+               BlueprintName = "cosmosWatchTests"
+               ReferencedContainer = "container:cosmosWatch.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "188FB4EE1B0770E000DBFB31"
-            BuildableName = "ASmallUniverseWatchApp.app"
-            BlueprintName = "ASmallUniverseWatchApp"
-            ReferencedContainer = "container:ASmallUniverseWatchApp.xcodeproj">
+            BlueprintIdentifier = "1829FDE81B089255005EC5E6"
+            BuildableName = "cosmosWatch.app"
+            BlueprintName = "cosmosWatch"
+            ReferencedContainer = "container:cosmosWatch.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -76,10 +76,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "188FB4EE1B0770E000DBFB31"
-            BuildableName = "ASmallUniverseWatchApp.app"
-            BlueprintName = "ASmallUniverseWatchApp"
-            ReferencedContainer = "container:ASmallUniverseWatchApp.xcodeproj">
+            BlueprintIdentifier = "1829FDE81B089255005EC5E6"
+            BuildableName = "cosmosWatch.app"
+            BlueprintName = "cosmosWatch"
+            ReferencedContainer = "container:cosmosWatch.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,10 +95,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "188FB4EE1B0770E000DBFB31"
-            BuildableName = "ASmallUniverseWatchApp.app"
-            BlueprintName = "ASmallUniverseWatchApp"
-            ReferencedContainer = "container:ASmallUniverseWatchApp.xcodeproj">
+            BlueprintIdentifier = "1829FDE81B089255005EC5E6"
+            BuildableName = "cosmosWatch.app"
+            BlueprintName = "cosmosWatch"
+            ReferencedContainer = "container:cosmosWatch.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

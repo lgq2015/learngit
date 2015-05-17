@@ -13,18 +13,46 @@
 		1829FDF81B089255005EC5E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1829FDF61B089255005EC5E6 /* Main.storyboard */; };
 		1829FDFA1B089255005EC5E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1829FDF91B089255005EC5E6 /* Images.xcassets */; };
 		1829FDFD1B089255005EC5E6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1829FDFB1B089255005EC5E6 /* LaunchScreen.xib */; };
-		1829FE091B089255005EC5E6 /* cosmosWatchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1829FE081B089255005EC5E6 /* cosmosWatchTests.m */; };
+		1829FE1D1B08926F005EC5E6 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1829FE1C1B08926F005EC5E6 /* InterfaceController.m */; };
+		1829FE201B08926F005EC5E6 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1829FE1F1B08926F005EC5E6 /* NotificationController.m */; };
+		1829FE231B08926F005EC5E6 /* GlanceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1829FE221B08926F005EC5E6 /* GlanceController.m */; };
+		1829FE251B08926F005EC5E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1829FE241B08926F005EC5E6 /* Images.xcassets */; };
+		1829FE291B08926F005EC5E6 /* cosmosWatch WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 1829FE281B08926F005EC5E6 /* cosmosWatch WatchKit App.app */; };
+		1829FE311B08926F005EC5E6 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1829FE2F1B08926F005EC5E6 /* Interface.storyboard */; };
+		1829FE331B08926F005EC5E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1829FE321B08926F005EC5E6 /* Images.xcassets */; };
+		1829FE361B08926F005EC5E6 /* cosmosWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1829FE161B08926F005EC5E6 /* cosmosWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1829FE031B089255005EC5E6 /* PBXContainerItemProxy */ = {
+		1829FE2A1B08926F005EC5E6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1829FDE11B089255005EC5E6 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1829FDE81B089255005EC5E6;
-			remoteInfo = cosmosWatch;
+			remoteGlobalIDString = 1829FE271B08926F005EC5E6;
+			remoteInfo = "cosmosWatch WatchKit App";
+		};
+		1829FE341B08926F005EC5E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1829FDE11B089255005EC5E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1829FE151B08926F005EC5E6;
+			remoteInfo = "cosmosWatch WatchKit Extension";
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1829FE3D1B08926F005EC5E6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1829FE361B08926F005EC5E6 /* cosmosWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1829FDE91B089255005EC5E6 /* cosmosWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cosmosWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,9 +65,22 @@
 		1829FDF71B089255005EC5E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1829FDF91B089255005EC5E6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1829FDFC1B089255005EC5E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		1829FE021B089255005EC5E6 /* cosmosWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cosmosWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1829FE071B089255005EC5E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1829FE081B089255005EC5E6 /* cosmosWatchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cosmosWatchTests.m; sourceTree = "<group>"; };
+		1829FE161B08926F005EC5E6 /* cosmosWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "cosmosWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1829FE191B08926F005EC5E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1829FE1A1B08926F005EC5E6 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		1829FE1B1B08926F005EC5E6 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		1829FE1C1B08926F005EC5E6 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		1829FE1E1B08926F005EC5E6 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		1829FE1F1B08926F005EC5E6 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		1829FE211B08926F005EC5E6 /* GlanceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlanceController.h; sourceTree = "<group>"; };
+		1829FE221B08926F005EC5E6 /* GlanceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlanceController.m; sourceTree = "<group>"; };
+		1829FE241B08926F005EC5E6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1829FE281B08926F005EC5E6 /* cosmosWatch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cosmosWatch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1829FE2E1B08926F005EC5E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1829FE301B08926F005EC5E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		1829FE321B08926F005EC5E6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +91,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1829FDFF1B089255005EC5E6 /* Frameworks */ = {
+		1829FE131B08926F005EC5E6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -65,6 +106,8 @@
 			children = (
 				1829FDEB1B089255005EC5E6 /* cosmosWatch */,
 				1829FE051B089255005EC5E6 /* cosmosWatchTests */,
+				1829FE171B08926F005EC5E6 /* cosmosWatch WatchKit Extension */,
+				1829FE2C1B08926F005EC5E6 /* cosmosWatch WatchKit App */,
 				1829FDEA1B089255005EC5E6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,7 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				1829FDE91B089255005EC5E6 /* cosmosWatch.app */,
-				1829FE021B089255005EC5E6 /* cosmosWatchTests.xctest */,
+				1829FE161B08926F005EC5E6 /* cosmosWatch WatchKit Extension.appex */,
+				1829FE281B08926F005EC5E6 /* cosmosWatch WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,6 +163,48 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		1829FE171B08926F005EC5E6 /* cosmosWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1829FE1B1B08926F005EC5E6 /* InterfaceController.h */,
+				1829FE1C1B08926F005EC5E6 /* InterfaceController.m */,
+				1829FE1E1B08926F005EC5E6 /* NotificationController.h */,
+				1829FE1F1B08926F005EC5E6 /* NotificationController.m */,
+				1829FE211B08926F005EC5E6 /* GlanceController.h */,
+				1829FE221B08926F005EC5E6 /* GlanceController.m */,
+				1829FE241B08926F005EC5E6 /* Images.xcassets */,
+				1829FE181B08926F005EC5E6 /* Supporting Files */,
+			);
+			path = "cosmosWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		1829FE181B08926F005EC5E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1829FE191B08926F005EC5E6 /* Info.plist */,
+				1829FE1A1B08926F005EC5E6 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1829FE2C1B08926F005EC5E6 /* cosmosWatch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				1829FE2F1B08926F005EC5E6 /* Interface.storyboard */,
+				1829FE321B08926F005EC5E6 /* Images.xcassets */,
+				1829FE2D1B08926F005EC5E6 /* Supporting Files */,
+			);
+			path = "cosmosWatch WatchKit App";
+			sourceTree = "<group>";
+		};
+		1829FE2D1B08926F005EC5E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1829FE2E1B08926F005EC5E6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,33 +215,50 @@
 				1829FDE51B089255005EC5E6 /* Sources */,
 				1829FDE61B089255005EC5E6 /* Frameworks */,
 				1829FDE71B089255005EC5E6 /* Resources */,
+				1829FE3D1B08926F005EC5E6 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				1829FE351B08926F005EC5E6 /* PBXTargetDependency */,
 			);
 			name = cosmosWatch;
 			productName = cosmosWatch;
 			productReference = 1829FDE91B089255005EC5E6 /* cosmosWatch.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1829FE011B089255005EC5E6 /* cosmosWatchTests */ = {
+		1829FE151B08926F005EC5E6 /* cosmosWatch WatchKit Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1829FE0F1B089255005EC5E6 /* Build configuration list for PBXNativeTarget "cosmosWatchTests" */;
+			buildConfigurationList = 1829FE3A1B08926F005EC5E6 /* Build configuration list for PBXNativeTarget "cosmosWatch WatchKit Extension" */;
 			buildPhases = (
-				1829FDFE1B089255005EC5E6 /* Sources */,
-				1829FDFF1B089255005EC5E6 /* Frameworks */,
-				1829FE001B089255005EC5E6 /* Resources */,
+				1829FE121B08926F005EC5E6 /* Sources */,
+				1829FE131B08926F005EC5E6 /* Frameworks */,
+				1829FE141B08926F005EC5E6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1829FE041B089255005EC5E6 /* PBXTargetDependency */,
+				1829FE2B1B08926F005EC5E6 /* PBXTargetDependency */,
 			);
-			name = cosmosWatchTests;
-			productName = cosmosWatchTests;
-			productReference = 1829FE021B089255005EC5E6 /* cosmosWatchTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			name = "cosmosWatch WatchKit Extension";
+			productName = "cosmosWatch WatchKit Extension";
+			productReference = 1829FE161B08926F005EC5E6 /* cosmosWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		1829FE271B08926F005EC5E6 /* cosmosWatch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1829FE371B08926F005EC5E6 /* Build configuration list for PBXNativeTarget "cosmosWatch WatchKit App" */;
+			buildPhases = (
+				1829FE261B08926F005EC5E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cosmosWatch WatchKit App";
+			productName = "cosmosWatch WatchKit App";
+			productReference = 1829FE281B08926F005EC5E6 /* cosmosWatch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
 		};
 /* End PBXNativeTarget section */
 
@@ -169,9 +272,11 @@
 					1829FDE81B089255005EC5E6 = {
 						CreatedOnToolsVersion = 6.3.1;
 					};
-					1829FE011B089255005EC5E6 = {
+					1829FE151B08926F005EC5E6 = {
 						CreatedOnToolsVersion = 6.3.1;
-						TestTargetID = 1829FDE81B089255005EC5E6;
+					};
+					1829FE271B08926F005EC5E6 = {
+						CreatedOnToolsVersion = 6.3.1;
 					};
 				};
 			};
@@ -189,7 +294,8 @@
 			projectRoot = "";
 			targets = (
 				1829FDE81B089255005EC5E6 /* cosmosWatch */,
-				1829FE011B089255005EC5E6 /* cosmosWatchTests */,
+				1829FE151B08926F005EC5E6 /* cosmosWatch WatchKit Extension */,
+				1829FE271B08926F005EC5E6 /* cosmosWatch WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -205,10 +311,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1829FE001B089255005EC5E6 /* Resources */ = {
+		1829FE141B08926F005EC5E6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1829FE291B08926F005EC5E6 /* cosmosWatch WatchKit App.app in Resources */,
+				1829FE251B08926F005EC5E6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1829FE261B08926F005EC5E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1829FE311B08926F005EC5E6 /* Interface.storyboard in Resources */,
+				1829FE331B08926F005EC5E6 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,21 +342,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1829FDFE1B089255005EC5E6 /* Sources */ = {
+		1829FE121B08926F005EC5E6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1829FE091B089255005EC5E6 /* cosmosWatchTests.m in Sources */,
+				1829FE201B08926F005EC5E6 /* NotificationController.m in Sources */,
+				1829FE1D1B08926F005EC5E6 /* InterfaceController.m in Sources */,
+				1829FE231B08926F005EC5E6 /* GlanceController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1829FE041B089255005EC5E6 /* PBXTargetDependency */ = {
+		1829FE2B1B08926F005EC5E6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1829FDE81B089255005EC5E6 /* cosmosWatch */;
-			targetProxy = 1829FE031B089255005EC5E6 /* PBXContainerItemProxy */;
+			target = 1829FE271B08926F005EC5E6 /* cosmosWatch WatchKit App */;
+			targetProxy = 1829FE2A1B08926F005EC5E6 /* PBXContainerItemProxy */;
+		};
+		1829FE351B08926F005EC5E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1829FE151B08926F005EC5E6 /* cosmosWatch WatchKit Extension */;
+			targetProxy = 1829FE341B08926F005EC5E6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -258,6 +382,14 @@
 				1829FDFC1B089255005EC5E6 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		1829FE2F1B08926F005EC5E6 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1829FE301B08926F005EC5E6 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -365,37 +497,59 @@
 			};
 			name = Release;
 		};
-		1829FE101B089255005EC5E6 /* Debug */ = {
+		1829FE381B08926F005EC5E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = cosmosWatchTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IBSC_MODULE = cosmosWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "cosmosWatch WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cosmosWatch.app/cosmosWatch";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
 			};
 			name = Debug;
 		};
-		1829FE111B089255005EC5E6 /* Release */ = {
+		1829FE391B08926F005EC5E6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = cosmosWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "cosmosWatch WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		1829FE3B1B08926F005EC5E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = cosmosWatchTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cosmosWatch.app/cosmosWatch";
+				INFOPLIST_FILE = "cosmosWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1829FE3C1B08926F005EC5E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "cosmosWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
@@ -419,11 +573,19 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		1829FE0F1B089255005EC5E6 /* Build configuration list for PBXNativeTarget "cosmosWatchTests" */ = {
+		1829FE371B08926F005EC5E6 /* Build configuration list for PBXNativeTarget "cosmosWatch WatchKit App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1829FE101B089255005EC5E6 /* Debug */,
-				1829FE111B089255005EC5E6 /* Release */,
+				1829FE381B08926F005EC5E6 /* Debug */,
+				1829FE391B08926F005EC5E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1829FE3A1B08926F005EC5E6 /* Build configuration list for PBXNativeTarget "cosmosWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1829FE3B1B08926F005EC5E6 /* Debug */,
+				1829FE3C1B08926F005EC5E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

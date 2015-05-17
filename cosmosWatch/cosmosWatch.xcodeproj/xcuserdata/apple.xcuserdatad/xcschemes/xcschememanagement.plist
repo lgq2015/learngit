@@ -4,40 +4,40 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>ASmallUniverseWatchApp WatchKit App.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
-		</dict>
-		<key>ASmallUniverseWatchApp.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>0</integer>
-		</dict>
-		<key>Glance - ASmallUniverseWatchApp WatchKit App.xcscheme</key>
+		<key>Glance - cosmosWatch WatchKit App.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
-		<key>Notification - ASmallUniverseWatchApp WatchKit App.xcscheme</key>
+		<key>Notification - cosmosWatch WatchKit App.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>cosmosWatch WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>cosmosWatch.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>188FB4EE1B0770E000DBFB31</key>
+		<key>1829FDE81B089255005EC5E6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>188FB5071B0770E000DBFB31</key>
+		<key>1829FE011B089255005EC5E6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>188FB52D1B0770FC00DBFB31</key>
+		<key>1829FE271B08926F005EC5E6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
