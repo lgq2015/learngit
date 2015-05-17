@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1829FDDB1B08837A005EC5E6 /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1829FDDA1B08837A005EC5E6 /* WatchKit.framework */; };
 		188FB4F51B0770E000DBFB31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 188FB4F41B0770E000DBFB31 /* main.m */; };
 		188FB4F81B0770E000DBFB31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 188FB4F71B0770E000DBFB31 /* AppDelegate.m */; };
 		188FB4FB1B0770E000DBFB31 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188FB4FA1B0770E000DBFB31 /* ViewController.m */; };
@@ -55,6 +56,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1829FDDA1B08837A005EC5E6 /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = System/Library/Frameworks/WatchKit.framework; sourceTree = SDKROOT; };
 		188FB4EF1B0770E000DBFB31 /* ASmallUniverseWatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASmallUniverseWatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		188FB4F31B0770E000DBFB31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		188FB4F41B0770E000DBFB31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1829FDDB1B08837A005EC5E6 /* WatchKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +107,7 @@
 		188FB4E61B0770E000DBFB31 = {
 			isa = PBXGroup;
 			children = (
+				1829FDDA1B08837A005EC5E6 /* WatchKit.framework */,
 				188FB4F11B0770E000DBFB31 /* ASmallUniverseWatchApp */,
 				188FB50B1B0770E000DBFB31 /* ASmallUniverseWatchAppTests */,
 				188FB51D1B0770FC00DBFB31 /* ASmallUniverseWatchApp WatchKit Extension */,
@@ -572,6 +576,7 @@
 				188FB5141B0770E000DBFB31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		188FB53D1B0770FC00DBFB31 /* Build configuration list for PBXNativeTarget "ASmallUniverseWatchApp WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -580,6 +585,7 @@
 				188FB53F1B0770FC00DBFB31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		188FB5401B0770FC00DBFB31 /* Build configuration list for PBXNativeTarget "ASmallUniverseWatchApp WatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -588,6 +594,7 @@
 				188FB5421B0770FC00DBFB31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
